@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 
 // Prefer env vars; fall back to provided values for convenience
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY ?? "AIzaSyBFmEB-xwJzQpHNveVAE0L1LvNAA3ycx9w",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY ?? "",
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN ?? "borplatform.firebaseapp.com",
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID ?? "borplatform",
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET ?? "borplatform.firebasestorage.app",
