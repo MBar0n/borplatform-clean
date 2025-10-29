@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(unzip:*)",
+      "Bash(firebase serve:*)",
+      "Bash(yarn install)",
+      "Bash(npm run dev:*)",
+      "Read(//c/Users/matth/Downloads/magicpath-temp/**)",
+      "Read(//c/Users/matth/Downloads/**)",
+      "Bash(firebase deploy:*)",
+      "Bash(npm run build)",
+      "Bash(npm install:*)",
+      "Bash(firebase functions:log:*)",
+      "Bash(firebase firestore:get:*)",
+      "Bash(node:*)",
+      "Bash(GOOGLE_CLOUD_PROJECT=borplatform node:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git filter-branch:*)",
+      "Bash(git reset:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
